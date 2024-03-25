@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thilshat Sm portfolio
+
+    </title>
+    <link rel="stylesheet" href="port2.css">
+    <script src="https://kit.fontawesome.com/b2a69133d7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="src/logo2.webp" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"> Home </a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#services"> Services </a></li>
+                    <li><a href="#portfolio"> Portfolio </a></li>
+                    <li><a href="#contact"> Contact </a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB Developer</p>
+                <h1>Hi, I'm <span>Thilshath SM </span><br>From Sri Lanka</h1>
+
+            </div>
+        </div>
+    </div>
+    <!-------------about--------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="src/sm2.jpg">
+                </div>
+               
+
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me </h1>
+                    <p>I'm Thilshath from Sri Lanka.I had  completed Bsc(Hons) in Information Technology 
+                        degree programme in the Faculty of Information Technology of University of 
+                        Moratuwa.I had been working as marketing Manager in Inner Cicle Pvt Ltd for a year.
+                       I have succesfully completed Java, Java Script, Phython, C++ And PHP in 
+                       Microsoft Coding Plateform. </p>
+                       <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                            
+                        </ul>
+                       </div>
+                       
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2031 - Future</span><br>UI/UX Design Training at Web Tech Zone Institute</li>
+                            <li><span>2029 - 2031</span><br>Team Lead at StartApp WO2.</li>
+                            <li><span>2028 - 2029</span><br>UI/UX Design Excutive at Coin Digital Ltd</li>
+                           
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2028</span><br>UI/UX Design Training at Web Tech Zone Institute</li>
+                            <li><span>2028</span><br>MBA from MIT in California</li>
+                            <li><span>2023</span><br>Bsc(Hons) in IT at University of Moratuwa</li>
+                           
+                        </ul>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Responsive Web Design</h2>
+
+                    <p>With mobile usage on the rise, having a responsive website is 
+                        no longer an option – it's a necessity. Our responsive web designs 
+                        ensure that your website seamlessly adapts to all screen sizes and devices,
+                         offering an exceptional user experience across desktops, tablets, and smartphones. </p>
+                           <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+
+                    <p>User experience is at the heart of what we do. Our expert UI/UX designers
+                         meticulously craft interfaces that are not only aesthetically pleasing but also
+                          intuitive and easy to navigate. We ensure that your website visitors have a delightful
+                           journey, fostering brand loyalty and trust. </p>
+                           <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Mobile App UI Design</h2>
+
+                    <p>  Extend your brand's identity to mobile platforms with our mobile app UI design services.
+                         We craft seamless and intuitive interfaces that offer a delightful user experience, resulting
+                          in higher user retention and engagement.</p>
+                           <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--------------portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="src/vv.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="src/t.jpg">
+                    <div class="layer">
+                        <h3>Music  App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="src/work@@.jpg">
+                    <div class="layer">
+                        <h3>Online shopping  App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a> 
+        </div>
+    </div>
+   
+    <!-----------contact----- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>thilshathmohammed1275@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0760642310</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Web_Design_for_Beginners_E-Certificate 1.pdf" download class="btn btn2">Download CV</a>
+                 </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Meassage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+        <p> Copyright &copy; Thilshath Portfolio.<i class="fa-solid fa-heart"></i></p>
+              
+            
+        </div>
+    </div>
+   
+   <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxjXnZWE-F5jG3JMohbLKm3rM9kGa28605GCfXS1dUDuKparBcl5Wsb5o2LJWuuaZ0q5A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+   
+</body>
+</html>
